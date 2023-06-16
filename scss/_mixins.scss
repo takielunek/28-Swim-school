@@ -1,0 +1,12 @@
+.wrapper {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1200px;
+}
+
+@mixin firstImg($bgImg) {
+    background-image: url($bgImg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
