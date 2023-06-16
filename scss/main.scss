@@ -28,7 +28,7 @@ body {
 h2 {
 	text-transform: uppercase;
 	color: $dark;
-	margin-left: 3em;
+	margin-left: 3px;
 	font-size: 2.2rem;
 }
 
@@ -91,7 +91,7 @@ a {
 	}
 
 	&__item {
-		padding: 1em 2em;
+		padding: 10px 20px;
 		text-transform: uppercase;
 		text-decoration: none;
 		font-weight: bold;
@@ -121,7 +121,7 @@ a {
 
 .header {
 	position: relative;
-	padding: 3em;
+	padding: 40px;
 	text-align: center;
 	font-family: roboto;
 	color: $dark;
@@ -133,11 +133,12 @@ a {
 	position: relative;
 	display: flex;
 	flex-direction: row;
-	margin-top: 2em;
-	margin-bottom: 4em;
+	margin-top: 100px;
+	margin-bottom: 140px;
 
 	&-text {
-		padding: 5em;
+		padding: 50px;
+		margin-top: 80px;
 	}
 }
 
@@ -145,7 +146,7 @@ a {
 	position: relative;
 	text-align: center;
 	height: 120vh;
-	padding: 25em 8em;
+	padding: 25px 8px;
 	@include firstImg('../img/group_640.jpg');
 
 	&__heading {
@@ -157,10 +158,10 @@ a {
 }
 
 .classes {
-	margin: 4em;
+	margin: 150px;
 
 	&__box {
-		padding: 1em;
+		padding: 10px;
 	}
 
 	&__img {
@@ -169,11 +170,11 @@ a {
 	}
 
 	&__text {
-		padding: 2em;
+		padding: 30px;
 	}
 
 	&__title {
-		margin-bottom: 1em;
+		margin-bottom: 40px;
 	}
 }
 
@@ -181,7 +182,7 @@ a {
 	position: relative;
 	text-align: center;
 	height: 120vh;
-	padding: 25em 8em;
+	padding: 25px 8px;
 	@include firstImg('../img/coach_640.jpg');
 
 	&__heading2 {
@@ -193,28 +194,28 @@ a {
 }
 
 .coach {
-	margin-top: 4em;
-	margin-bottom: 6em;
+	margin-top: 100px;
+	margin-bottom: 60px;
 }
 
 .col {
-	margin-top: 6em;
+	margin-top: 60px;
 }
 
 // offers
 
 .price__box {
-	margin-top: 2em;
+	margin-top: 100px;
 	text-align: center;
 }
 
 .price-info {
-	margin: 2em;
+	margin: 40px;
 }
 
 .btn {
 	font-size: 1.5rem;
-	margin-top: 2em;
+	margin-top: 40px;
 	color: $pure-white;
 	background-color: $secondary-color;
 	border-color: $secondary-color;
@@ -227,11 +228,11 @@ a {
 }
 
 .localization {
-	margin-top: 4em;
-	margin-bottom: 2em;
+	margin-top: 100px;
+	margin-bottom: 100px;
 
 	&__box {
-		padding: 1em;
+		padding: 40px;
 		text-align: center;
 	}
 }
@@ -239,16 +240,16 @@ a {
 // question
 
 .question {
-	margin-bottom: 4em;
+	margin-bottom: 20px;
 }
 
 .question-box {
-	margin-bottom: 0.5em;
+	margin-bottom: 15px;
 }
 
 .question-btn,
 .question-info-text {
-	padding: 1em;
+	padding: 25px;
 	width: 100%;
 	font-size: 25px;
 	text-align: left;
@@ -268,7 +269,7 @@ a {
 
 .question-info {
 	display: none;
-	padding: 1em 2em;
+	padding: 10px 20px;
 }
 
 .active {
@@ -276,14 +277,14 @@ a {
 }
 
 .fa-arrow-down {
-	margin-right: 2em;
+	margin-right: 20px;
 }
 
 // gallery
 
 .gallery_img {
 	position: relative;
-	margin: 1em;
+	margin: 20px;
 	box-shadow: 5px 5px 10px grey;
 }
 
@@ -291,29 +292,29 @@ a {
 
 .footer {
 	&__box-title {
-		margin-top: 2em;
+		margin-top: 60px;
 		text-align: center;
 	}
 
 	&__box-text {
-		margin: 1em;
+		margin: 40px;
 	}
 
 	&__box-text2 {
 		text-align: center;
-		margin-bottom: 2em;
+		margin-bottom: 40px;
 	}
 
 	&__box-link {
 		text-decoration: none;
 		color: $dark;
-		margin: 2em;
+		margin: 20px;
 	}
 
 	&__box-link2 {
 		color: $dark;
 		font-size: 2rem;
-		margin: 0.5em;
+		margin: 2px;
 	}
 
 	&__box-social {
@@ -343,6 +344,7 @@ a {
 	}
 
 	.oboutUs__box {
+		
 		display: flex;
 		flex-direction: column;
 
@@ -352,40 +354,53 @@ a {
 		}
 
 		&-text {
-			padding: 2em;
+			padding: 60px;
+			font-size: 20px;
 		}
 	}
 
 	.image {
-		padding: 13em 2em;
+		padding: 360px 20px;
 
 		&__heading {
-			font-size: 40px;
+			font-size: 30px;
 		}
 	}
 
 	.classes {
 		&__box {
-			padding: 0em;
+			padding: 0px;
 		}
 
 		&__img {
 			width: 95%;
 		}
 
+		&__title {
+			font-size: 20px;
+		}
+
 		&__text {
-			padding: 0em;
-			margin: 3em;
+			padding: 0px;
+			margin: 0px;
+			margin-top: 40px;
+			margin-bottom: 80px;
+			font-size: 20px;
 		}
 	}
 
 	.image2 {
-		padding: 13em 2em;
+		padding: 360px 20px;
 
 		&__heading2 {
-			font-size: 40px;
+			font-size: 30px;
 		}
 	}
+
+	.coach__card-text {
+		font-size: 20px;
+	}
+
 
 	.gallery_img {
 		width: 80%;
@@ -396,12 +411,39 @@ a {
 		margin: 0 auto;
 		display: block;
 		width: 80%;
+		font-size: 20px;
 	}
+
+	.price__box {
+		margin-top: 100px;
+		text-align: center;
+		font-size: 20px;
+		padding: 40px;
+	}
+	
+	.price__info {
+		font-size: 20px;
+		padding: 40px;
+	}
+
+	
+	.btn {
+		font-size: 1.2rem;
+		margin-top: 40px;
+		
+	}
+	
+
+	.localization__box {
+			padding: 40px;
+			font-size: 20px;
+		}
+	
 }
 
 @media (min-width: 576px) {
 	h2 {
-		margin-left: 0em;
+		margin-left: 0px;
 	}
 
 	.nav {
@@ -425,12 +467,12 @@ a {
 		}
 
 		&-text {
-			padding: 2em;
+			padding: 60px;
 		}
 	}
 
 	.image {
-		padding: 13em 2em;
+		padding: 360px 20px;
 
 		&__heading {
 			font-size: 40px;
@@ -446,19 +488,31 @@ a {
 			width: 95%;
 		}
 
+		&__title {
+			font-size: 20px;
+		}
+
 		&__text {
-			padding: 0em;
-			margin: 3em;
+			padding: 0px;
+			margin: 0px;
+			margin-top: 40px;
+			margin-bottom: 80px;
+			font-size: 20px;
 		}
 	}
 
 	.image2 {
-		padding: 13em 2em;
+		padding: 360px 20px;
 
 		&__heading2 {
 			font-size: 40px;
 		}
 	}
+
+	.coach__card-text {
+		font-size: 20px;
+	}
+
 	.gallery_img {
 		width: 80%;
 	}
@@ -468,7 +522,33 @@ a {
 		margin: 0 auto;
 		display: block;
 		width: 80%;
+		font-size: 20px;
 	}
+
+	.price__box {
+		margin-top: 100px;
+		text-align: center;
+		font-size: 20px;
+		padding: 40px;
+	}
+	
+	.price__info {
+		font-size: 20px;
+		padding: 40px;
+	}
+
+	
+	.btn {
+		font-size: 1.2rem;
+		margin-top: 40px;
+		
+	}
+	
+
+	.localization__box {
+			padding: 40px;
+			font-size: 20px;
+		}
 }
 
 @media (min-width: 768px) {
@@ -494,21 +574,63 @@ a {
 
 	.classes {
 		&__img {
-			width: 80%;
+			width: 90%;
+		}
+
+		&__title {
+			font-size: 30px;
 		}
 
 		&__text {
-			padding: 0em;
-			margin: 3em;
+			padding: 0px;
+			margin: 0px;
+			margin-top: 40px;
+			margin-bottom: 80px;
+			font-size: 25px;
 		}
 	}
 
 	.image2 {
 		@include firstImg('../img/coach_1920.jpg');
 	}
+
+	.coach__card-text {
+		font-size: 25px;
+	}
+
 	.gallery_img {
 		width: 70%;
 	}
+
+	.question-btn,
+	.question-info-text {
+		font-size: 25px;
+	}
+
+	.price__box {
+		margin-top: 100px;
+		text-align: center;
+		font-size: 25px;
+		padding: 40px;
+	}
+	
+	.price__info {
+		font-size: 25px;
+		padding: 40px;
+	}
+
+	
+	.btn {
+		font-size: 1.5rem;
+		margin-top: 40px;
+		
+	}
+	
+
+	.localization__box {
+			padding: 40px;
+			font-size: 25px;
+		}
 }
 
 @media (min-width: 992px) {
@@ -532,7 +654,7 @@ a {
 		flex-direction: row;
 
 		&-text {
-			padding: 3em;
+			padding: 60px;
 		}
 	}
 
@@ -546,8 +668,8 @@ a {
 		}
 
 		&__text {
-			padding: 0em;
-			margin: 3em;
+			padding: 0px;
+			margin: 60px;
 		}
 	}
 
@@ -567,4 +689,29 @@ a {
 	.image2__heading2 {
 		font-size: 60px;
 	}
+
+	.price__box {
+		margin-top: 100px;
+		text-align: center;
+		font-size: 30px;
+		padding: 40px;
+	}
+	
+	.price__info {
+		font-size: 30px;
+		padding: 40px;
+	}
+
+	
+	.btn {
+		font-size: 1.5rem;
+		margin-top: 40px;
+		
+	}
+	
+
+	.localization__box {
+			padding: 40px;
+			font-size: 30px;
+		}
 }

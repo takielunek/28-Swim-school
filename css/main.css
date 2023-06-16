@@ -30,7 +30,7 @@ body {
 h2 {
   text-transform: uppercase;
   color: #0b3494;
-  margin-left: 3em;
+  margin-left: 3px;
   font-size: 2.2rem;
 }
 
@@ -87,7 +87,7 @@ a {
   background-color: #fff;
 }
 .nav__item {
-  padding: 1em 2em;
+  padding: 10px 20px;
   text-transform: uppercase;
   text-decoration: none;
   font-weight: bold;
@@ -113,7 +113,7 @@ a {
 
 .header {
   position: relative;
-  padding: 3em;
+  padding: 40px;
   text-align: center;
   font-family: roboto;
   color: #0b3494;
@@ -123,18 +123,19 @@ a {
   position: relative;
   display: flex;
   flex-direction: row;
-  margin-top: 2em;
-  margin-bottom: 4em;
+  margin-top: 100px;
+  margin-bottom: 140px;
 }
 .oboutUs__box-text {
-  padding: 5em;
+  padding: 50px;
+  margin-top: 80px;
 }
 
 .image {
   position: relative;
   text-align: center;
   height: 120vh;
-  padding: 25em 8em;
+  padding: 25px 8px;
   background-image: url("../img/group_640.jpg");
   background-size: cover;
   background-position: center;
@@ -148,27 +149,27 @@ a {
 }
 
 .classes {
-  margin: 4em;
+  margin: 150px;
 }
 .classes__box {
-  padding: 1em;
+  padding: 10px;
 }
 .classes__img {
   margin: 0 auto;
   display: block;
 }
 .classes__text {
-  padding: 2em;
+  padding: 30px;
 }
 .classes__title {
-  margin-bottom: 1em;
+  margin-bottom: 40px;
 }
 
 .image2 {
   position: relative;
   text-align: center;
   height: 120vh;
-  padding: 25em 8em;
+  padding: 25px 8px;
   background-image: url("../img/coach_640.jpg");
   background-size: cover;
   background-position: center;
@@ -182,26 +183,26 @@ a {
 }
 
 .coach {
-  margin-top: 4em;
-  margin-bottom: 6em;
+  margin-top: 100px;
+  margin-bottom: 60px;
 }
 
 .col {
-  margin-top: 6em;
+  margin-top: 60px;
 }
 
 .price__box {
-  margin-top: 2em;
+  margin-top: 100px;
   text-align: center;
 }
 
 .price-info {
-  margin: 2em;
+  margin: 40px;
 }
 
 .btn {
   font-size: 1.5rem;
-  margin-top: 2em;
+  margin-top: 40px;
   color: #fff;
   background-color: #164dcc;
   border-color: #164dcc;
@@ -214,25 +215,25 @@ a {
 }
 
 .localization {
-  margin-top: 4em;
-  margin-bottom: 2em;
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
 .localization__box {
-  padding: 1em;
+  padding: 40px;
   text-align: center;
 }
 
 .question {
-  margin-bottom: 4em;
+  margin-bottom: 20px;
 }
 
 .question-box {
-  margin-bottom: 0.5em;
+  margin-bottom: 15px;
 }
 
 .question-btn,
 .question-info-text {
-  padding: 1em;
+  padding: 25px;
   width: 100%;
   font-size: 25px;
   text-align: left;
@@ -252,7 +253,7 @@ a {
 
 .question-info {
   display: none;
-  padding: 1em 2em;
+  padding: 10px 20px;
 }
 
 .active {
@@ -260,35 +261,35 @@ a {
 }
 
 .fa-arrow-down {
-  margin-right: 2em;
+  margin-right: 20px;
 }
 
 .gallery_img {
   position: relative;
-  margin: 1em;
+  margin: 20px;
   box-shadow: 5px 5px 10px grey;
 }
 
 .footer__box-title {
-  margin-top: 2em;
+  margin-top: 60px;
   text-align: center;
 }
 .footer__box-text {
-  margin: 1em;
+  margin: 40px;
 }
 .footer__box-text2 {
   text-align: center;
-  margin-bottom: 2em;
+  margin-bottom: 40px;
 }
 .footer__box-link {
   text-decoration: none;
   color: #0b3494;
-  margin: 2em;
+  margin: 20px;
 }
 .footer__box-link2 {
   color: #0b3494;
   font-size: 2rem;
-  margin: 0.5em;
+  margin: 2px;
 }
 .footer__box-social {
   text-align: center;
@@ -318,29 +319,39 @@ a {
     display: block;
   }
   .oboutUs__box-text {
-    padding: 2em;
+    padding: 60px;
+    font-size: 20px;
   }
   .image {
-    padding: 13em 2em;
+    padding: 360px 20px;
   }
   .image__heading {
-    font-size: 40px;
+    font-size: 30px;
   }
   .classes__box {
-    padding: 0em;
+    padding: 0px;
   }
   .classes__img {
     width: 95%;
   }
+  .classes__title {
+    font-size: 20px;
+  }
   .classes__text {
-    padding: 0em;
-    margin: 3em;
+    padding: 0px;
+    margin: 0px;
+    margin-top: 40px;
+    margin-bottom: 80px;
+    font-size: 20px;
   }
   .image2 {
-    padding: 13em 2em;
+    padding: 360px 20px;
   }
   .image2__heading2 {
-    font-size: 40px;
+    font-size: 30px;
+  }
+  .coach__card-text {
+    font-size: 20px;
   }
   .gallery_img {
     width: 80%;
@@ -350,11 +361,30 @@ a {
     margin: 0 auto;
     display: block;
     width: 80%;
+    font-size: 20px;
+  }
+  .price__box {
+    margin-top: 100px;
+    text-align: center;
+    font-size: 20px;
+    padding: 40px;
+  }
+  .price__info {
+    font-size: 20px;
+    padding: 40px;
+  }
+  .btn {
+    font-size: 1.2rem;
+    margin-top: 40px;
+  }
+  .localization__box {
+    padding: 40px;
+    font-size: 20px;
   }
 }
 @media (min-width: 576px) {
   h2 {
-    margin-left: 0em;
+    margin-left: 0px;
   }
   .nav__desktop {
     display: none;
@@ -372,10 +402,10 @@ a {
     display: block;
   }
   .oboutUs__box-text {
-    padding: 2em;
+    padding: 60px;
   }
   .image {
-    padding: 13em 2em;
+    padding: 360px 20px;
   }
   .image__heading {
     font-size: 40px;
@@ -386,15 +416,24 @@ a {
   .classes__img {
     width: 95%;
   }
+  .classes__title {
+    font-size: 20px;
+  }
   .classes__text {
-    padding: 0em;
-    margin: 3em;
+    padding: 0px;
+    margin: 0px;
+    margin-top: 40px;
+    margin-bottom: 80px;
+    font-size: 20px;
   }
   .image2 {
-    padding: 13em 2em;
+    padding: 360px 20px;
   }
   .image2__heading2 {
     font-size: 40px;
+  }
+  .coach__card-text {
+    font-size: 20px;
   }
   .gallery_img {
     width: 80%;
@@ -404,6 +443,25 @@ a {
     margin: 0 auto;
     display: block;
     width: 80%;
+    font-size: 20px;
+  }
+  .price__box {
+    margin-top: 100px;
+    text-align: center;
+    font-size: 20px;
+    padding: 40px;
+  }
+  .price__info {
+    font-size: 20px;
+    padding: 40px;
+  }
+  .btn {
+    font-size: 1.2rem;
+    margin-top: 40px;
+  }
+  .localization__box {
+    padding: 40px;
+    font-size: 20px;
   }
 }
 @media (min-width: 768px) {
@@ -425,11 +483,17 @@ a {
     background-attachment: fixed;
   }
   .classes__img {
-    width: 80%;
+    width: 90%;
+  }
+  .classes__title {
+    font-size: 30px;
   }
   .classes__text {
-    padding: 0em;
-    margin: 3em;
+    padding: 0px;
+    margin: 0px;
+    margin-top: 40px;
+    margin-bottom: 80px;
+    font-size: 25px;
   }
   .image2 {
     background-image: url("../img/coach_1920.jpg");
@@ -437,8 +501,33 @@ a {
     background-position: center;
     background-attachment: fixed;
   }
+  .coach__card-text {
+    font-size: 25px;
+  }
   .gallery_img {
     width: 70%;
+  }
+  .question-btn,
+  .question-info-text {
+    font-size: 25px;
+  }
+  .price__box {
+    margin-top: 100px;
+    text-align: center;
+    font-size: 25px;
+    padding: 40px;
+  }
+  .price__info {
+    font-size: 25px;
+    padding: 40px;
+  }
+  .btn {
+    font-size: 1.5rem;
+    margin-top: 40px;
+  }
+  .localization__box {
+    padding: 40px;
+    font-size: 25px;
   }
 }
 @media (min-width: 992px) {
@@ -457,7 +546,7 @@ a {
     flex-direction: row;
   }
   .oboutUs__box-text {
-    padding: 3em;
+    padding: 60px;
   }
   .image__heading {
     font-size: 50px;
@@ -466,8 +555,8 @@ a {
     width: 60%;
   }
   .classes__text {
-    padding: 0em;
-    margin: 3em;
+    padding: 0px;
+    margin: 60px;
   }
   .image2__heading2 {
     font-size: 50px;
@@ -482,5 +571,23 @@ a {
   }
   .image2__heading2 {
     font-size: 60px;
+  }
+  .price__box {
+    margin-top: 100px;
+    text-align: center;
+    font-size: 30px;
+    padding: 40px;
+  }
+  .price__info {
+    font-size: 30px;
+    padding: 40px;
+  }
+  .btn {
+    font-size: 1.5rem;
+    margin-top: 40px;
+  }
+  .localization__box {
+    padding: 40px;
+    font-size: 30px;
   }
 }/*# sourceMappingURL=main.css.map */
